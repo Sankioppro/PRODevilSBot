@@ -3,7 +3,7 @@ from io import BytesIO
 
 from pyrogram import Client, filters
 from pyrogram.types import Message
-
+from aiohttp import ClientSession
 aiosession = ClientSession()
 
 from Romeo.helper.PyroHelpers import ReplyCheck
